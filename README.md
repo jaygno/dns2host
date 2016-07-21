@@ -29,7 +29,7 @@ Have fun!
 
 
 >func main() {
-    ips, _ := dns2host.LookupHost("202.106.0.20", "www.baidu.com")
+    ips, _ := dns2host.LookupHost("114.114.114.114", "www.baidu.com")
     fmt.Println(ips) 
 }
 ```
