@@ -33,3 +33,7 @@ Have fun!
     fmt.Println(ips) 
 }
 ```
+
+##Next Plan
+* Support ipv6;
+* Support Tcp;
