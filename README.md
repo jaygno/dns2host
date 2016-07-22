@@ -1,7 +1,7 @@
 # dns2host
 resolve the A record by the target host, support A type only.
 
-[![Build Status](https://travis-ci.org/jaygno/dns2host?branch=master)]
+[![Build Status](https://travis-ci.org/jaygno/dns2host.svg?branch=master)]
 
 
 # Features
@@ -33,7 +33,7 @@ Have fun!
     fmt.Println(ips) 
 }
 ```
-
 ##Next Plan
 * Support ipv6;
 * Support Tcp;
+
