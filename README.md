@@ -20,17 +20,17 @@ Have fun!
 ## Examples
 
 ```go
->package main
+package main
 
->import(
-       "fmt"
-       "github.com/dns2host"
+import(
+      "fmt"
+      "github.com/jaygno/dns2host"
       )
 
 
->func main() {
-    ips, _ := dns2host.LookupHost("114.114.114.114", "www.baidu.com")
-    fmt.Println(ips) 
+func main() {
+   ips, _ := dns2host.LookupHost("114.114.114.114", "www.baidu.com")
+   fmt.Println(ips) 
 }
 ```
 ##Next Plan
