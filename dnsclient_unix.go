@@ -80,7 +80,7 @@ func goLookupIPOrder(name string, server string) (addrs []net.IPAddr, err error)
 		// just one is misleading. See also golang.org/issue/6324.
 		lastErr.Name = name
 	}
-	//sortByRFC6724(addrs)
+	sortByRFC6724(addrs)
 	if len(addrs) == 0 {
 		if lastErr != nil {
 			return nil, lastErr
